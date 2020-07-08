@@ -1,14 +1,25 @@
 {
-  "name": "NODEJS-MYSQL-APP",
+  "name": "linkusersnod",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlosjota/apk-njs-ql20.git"
   },
   "keywords": [],
-  "author": "@karlosjota",
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlosjota/apk-njs-ql20/issues"
+  },
+  "homepage": "https://github.com/karlosjota/apk-njs-ql20#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
@@ -16,12 +27,8 @@
     "express-handlebars": "^4.0.4",
     "express-mysql-session": "^2.1.4",
     "express-session": "^1.17.1",
-    "express-validator": "^6.6.0",
-    "morgan": "^1.10.0",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.4",
     "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "timeago.js": "^4.0.2"
+    "passport-local": "^1.0.0"
   }
 }
