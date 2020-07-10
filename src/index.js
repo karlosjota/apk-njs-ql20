@@ -7,7 +7,7 @@ const path = require('path');
 const app = express();
 
 // Settings - Configuraciones
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 3001);
 // le decimos a node donde está el dir 'views' concatenando con dirname
 // dirname representa el path raiz de la app.
 app.set('views', path.join(__dirname,'views'));
